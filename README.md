@@ -1,1 +1,1 @@
-# cprg-218-assignment4
+# Attributions & References: JokeAPI Documentation.

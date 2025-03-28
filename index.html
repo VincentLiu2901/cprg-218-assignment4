@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Joke Generator</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    
+    <h1 id="joke-title">Joke Of The Day</h1>
+    <p id="joke-text">Loading joke...</p>
+    <div>
+        <button onclick="getJoke('Any')">Any</button>
+        <button onclick="getJoke('Programming')">Programming</button>
+        <button onclick="getJoke('Misc')">Misc</button>
+        <button onclick="getJoke('Pun')">Pun</button>
+        <button onclick="getJoke('Spooky')">Spooky</button>
+        <button onclick="getJoke('Christmas')">Christmas</button>
+    </div>
+    <button onclick="getJoke(currentCategory)">Get Another Joke</button>
+    
+</body>
+</html>
